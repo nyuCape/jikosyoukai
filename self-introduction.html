@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自己紹介</title>
+    <link rel="stylesheet" href="introduction.css">
+  </head>
+  <body>
+    <header><h1>自己紹介</h1></header>
+    <div class="body">
+        <div height="10%"></div>
+        <a href="https://twitter.com/tonxkina" target="_blank" rel="noopener noreferrer"><img
+          class="icon"
+          src="icon.png"
+          alt="アイコン"
+        /></a>
+        <h1>きなこな</h1>
+
+        <hr>
+
+        <h3>名前 / 年齢 / 現在住んでる県</h3>
+        <ul>
+          <li>名前: 佐藤友希</li>
+          <li>年齢: 16歳</li>
+          <li>都道府県:埼玉県</li>
+        </ul>
+
+        <hr>
+
+        <div class="hobby">
+        <h2>趣味</h2>
+        <ul>
+          <li>Cytus<a href="https://www.rayark.com/ja/games/cytus/">(公式サイト)</a></li>
+          <li>エレクトロな音楽を聞く</li>
+        </ul>
+        <img class="collage"src="collage.png" alt="cytusと音楽のイメージ画像">
+        </div>
+
+        <hr>
+
+        <h2>Twitter</h2>
+        <ul>
+          <li><a href="https://twitter.com/tonxkina">@tonxkina</a></li>
+        </ul>
+
+        <hr>
+
+        <h2>好きな動画</h2>
+        <iframe
+        class="youtube"
+        src="https://www.youtube.com/embed/Es0ml1aWBGI" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+
+        <hr>
+
+        <h2>診断アプリ</h2>
+        <p>診断したい名前を入れてね！</p>
+        <input type="text" id="user-name" size="40" maxlength="20" />
+        <button id="assessment">診断する</button>
+        <div id="result-area" class="result-area"></div>
+        <div id="tweet-area">
+            <a
+            href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw"
+            class="twitter-hashtag-button"
+            data-text="診断結果の文章"
+            data-show-count="false">
+            Tweet #あなたのいいところ
+            </a>
+            <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8">
+            </script>
+        </div>
+    </div>
+    <p>ｼｭｯ =͟͟͞͞ (¦3[▓▓]</p>
+    </body><script src="assessment.js"></script>
+</html>
